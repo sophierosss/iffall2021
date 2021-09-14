@@ -1,0 +1,25 @@
+body {
+    background-color: mistyrose;
+    border:rgb(253, 245, 244) 20px solid;
+    text-indent: 20px;
+}
+p {
+   
+    color: rgba(238, 143, 108, 0.952);
+    color: rgb(255, 176, 167);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
+font-size: 15px;
+
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgba(160, 81, 45, 0.781);
+}
+h2 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+color: rgba(160, 81, 45, 0.548);
+
+}
