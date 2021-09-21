@@ -1,0 +1,14 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslategray;
+    background-color: lavenderblush;
+}
+body {
+    margin-right: 30%;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-weight: lighter;
+}
