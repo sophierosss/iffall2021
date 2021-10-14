@@ -1,0 +1,123 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;}
+
+header{
+    
+    background-image: url(https://www.holland.com/upload_mm/6/e/3/68358_fullimage_tulpenveld_1360x430.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 33px;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.content {
+    margin: auto;
+    width: 960px;
+}
+
+header .content{
+    padding: 152px 0  148px 0;
+}
+
+section .content{
+    padding: 40px 0 74px 0;
+    font-size: 18px;
+    
+}
+
+section p{
+    padding: 15px 0 10px 0;
+    margin-bottom: -26px;
+}
+section h1{
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+}
+section .image1{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 33px;
+}
+.section1{
+    background-color: cornsilk;
+}
+.sectiontitle2 {
+    margin-bottom: 32px;
+}
+
+section .image2{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 0px 12px 24px 0;
+}
+li{
+    list-style-type: none;
+
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin-bottom: -33px;
+}
+ul li{
+display: block;
+width: 90%;
+}
+
+ul h3{
+    margin-top: 0px;
+    margin-bottom:-26px;
+    font-size: 20px;
+}
+.section2{
+    background-color:lightsteelblue ;
+}
+.section3 p{
+    text-align: center;
+    font-size: 26px;
+    line-height: 11px;
+}
+
+.section3 h1{
+    padding: 40px 0 4px 0;
+}
+.section3{
+    background-color: cornsilk;
+}
+.finalp{
+    padding-bottom: 114px;
+}
+footer p{
+    
+    margin-left: 0px;
+    font-size: 18px;
+    margin-top: 26px;
+    padding: 40px 0 40px 0;
+}
+footer{
+    background-color:white;
+    display: block;
+    
+}
