@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(253, 251, 241);
+}
+h1{
+
+    font-family: fino-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1000px){
+    h1{
+        font-family: fino-sans, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-family: fino-sans, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.time p{
+    padding-left: 2%;
+}
+
+h2{
+    font-family: fino-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.section1 img{
+    
+    
+    width: 45%;
+    height: auto;
+    object-fit: contain
+}
+
+.section1 p{
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 35px;
+    
+}
+
+.section1 {
+    display: flex;  
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+.section1 div{
+    width: 45%;
+    padding-left: 20px;
+}
+
+h3{
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 25px;
+}
+
+#youneedcake ul{
+    list-style-type: none;
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+.section p{
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#youneedcake{
+    flex: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 27.5px;
+}
+
+#todocake{
+    flex: 35%;  
+    padding-right: 25%;
+    padding-left: 0% ;
+    line-height: 27.5px;
+}
+
+.flexsection2 {
+    display: flex;  
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+#todocake ul{
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+img[alt*="mixingcake"]{
+ width: 20%;
+ padding-left: 20%;
+}
+
+img[alt*="bakingcake"]{
+ width: 20%;
+ padding-left: 20%;
+
+}
+
+#cakeimages div{
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+
+#icingimages div{
+    display: flex;  
+    flex-wrap: wrap;   
+}
+
+img[alt*="icingcake"]{
+    width: 27%;
+    padding-left: 15%;
+    /* background-color: cornsilk; */
+   }
+   
+   img[alt*="slicecake"]{
+    width: 20%;
+    padding-left: 20%;
+    /* background-color: cornsilk; */
+   
+   }
+
+#youneedicing ul{
+    list-style-type: none;
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+#youneedicing  {
+    flex: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 27.5px;
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#todoicing{
+    flex: 25%;  
+    padding-right: 35%;
+    padding-left: 0% ;
+    line-height: 27.5px;
+}
+
+.flexsection3 {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+#todoicing ul{
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+hr.rounded {
+    border-top: 8px solid rgb(253, 220, 225);
+    border-radius: 5px;
+}
+
