@@ -1,0 +1,604 @@
+
+        body {
+            color: #333;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            margin: 40px;
+        }
+
+        h1 {
+             font-size: 30px;
+             margin-bottom: 40px;
+        }
+
+        .button_container {
+            border: 1px solid #ddd;
+            margin: 0 10px 10px 0;
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+            float: left;
+            overflow: hidden;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        a#btn_cocacola{
+
+            font-family: semplicitapro, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            display: inline-block;
+            box-sizing: border-box;
+            margin: auto;
+            margin-top: 30px;
+            padding: 70px 40px 40px 14px;
+            background-color: tomato;
+            color: #fff;
+            font-size: 40px;
+            height:200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 1px solid tomato;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        a#btn_cocacola:hover{
+            background-color: white;
+            color: tomato;
+        }
+        a#btn_apple{
+            font-family: proxima-nova, sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            display: inline-block;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 35px;
+            margin: auto;
+            color: grey;
+            padding-bottom: 90px;
+            transition: all .5s;
+
+        }
+
+        .apple{
+            text-align: center;
+            color:grey;
+            scale: 13;
+            margin-top: 130px;
+            border: grey;
+        }
+
+        .apple:hover{
+            color: transparent;
+        }
+
+        a#btn_ibm{
+            display: inline-block;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin: auto;
+            margin-top: 80px;
+            padding: 18px 30px 10px 30px;
+            background-color: black;
+            color: #fff;
+            font-size: 50px;
+            font-family: 'Alfa Slab One', cursive;
+            text-decoration: none;
+        }
+        a#btn_ibm:hover{
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            background-color: white;
+            border: black;
+        }
+        a#btn_nerf{
+            
+            font-family: forma-djr-micro, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            display: inline-block;
+            height: 100px;
+            width: 220px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin: auto;
+            margin-top: 80px;
+            padding: 10px 30px 15px 10px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            font-size: 80px;
+        }
+        a#btn_nerf:hover{
+            text-shadow: 0 0 3px yellow;
+            color: orange;
+            background-color: tomato;
+        }
+        #btn_harley{
+            display: inline-block;
+            height: 50px;
+            box-sizing: border-box;
+            /* border-radius: 25px; */
+            margin: auto;
+            margin-top: 100px;
+            padding: 10px 30px 0 30px;
+            background-color: rgb(255, 123, 0);
+            border: 2px solid rgb(255, 123, 0);
+            color: #fff;
+            font-size: 23px;
+            font-family: filicudi-solid, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            transition: all .5s;
+            white-space: nowrap;
+        }
+        #btn_harley:hover{
+            transform: scale(0.8);
+            color: black;
+        }
+        a#btn_MK{
+            font-family: mr-eaves-modern, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 50px;
+            text-decoration: none;
+            margin:auto;
+            display: block;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin: auto;
+            margin-top: 75px;
+            padding-top: 18px;
+            background-color: #232f3e;
+            color:blanchedalmond;
+            text-align: center;
+            font-size: 60px;
+            transition: all .3s;
+        }
+        a#btn_MK:hover{
+            transform: translate(5px, 2px);
+        }
+        #btn_ideo{
+            font-family: ff-ernestine-pro, serif;
+            font-weight: 300;
+            font-style: normal;
+            text-decoration: none;
+            display: block;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 30px;
+            padding-top: 35px;
+            border: 20pt solid orange;
+            color: black;
+            text-align: center;
+            font-size: 60px;
+            transition: all .5s;
+        }
+        #btn_ideo:hover{
+            transform: rotate(-360deg);
+            border: 15pt solid orange;
+        }
+        #btn_sardella{
+            font-family: adobe-bengali, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            height: 50px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            margin: auto;
+            margin-top: 100px;
+            transition: all .8s;
+            padding: 10px 40px 30px 40px;
+            font-size: 30px;
+            margin: auto;
+            /* padding-top: 75pt; */
+            color: white;
+            background-color:rgb(76, 116, 190);
+        }
+
+        #btn_sardella:active{
+            color: rgb(76, 116, 190);
+            background-color:white;
+            transform: translate(0pt,60pt);
+            
+        }
+
+        #btn_craigslist{
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            display: block;
+            padding-top: 70px;
+            font-size: 60px;
+            color: blue;
+            transition: all .2s;
+        }
+        #btn_craigslist:hover{
+            text-decoration: underline;
+            transform: scale(.9);
+        }
+        #btn_lyft{
+            font-family: bree, sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 0px 70px 0px 70px;
+            background-color: rgb(192, 29, 192);
+            border:5pt solid rgb(192, 29, 192) ;
+            color: #fff;
+            font-size: 50px;
+            transition: all 1.2s;
+        }
+        #btn_lyft:hover{
+            transform: translate(100pt);
+            background-color: white;
+            color:rgb(192, 29, 192);
+        }
+        #btn_samsung{
+            font-family: input-sans-compressed, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            height: 70px;
+            box-sizing: border-box;
+            border-radius: 80%;
+            margin: auto;
+            margin-top: 100px;
+            padding: 24px 40px 0 40px;
+            background-color: navy;
+            
+            color: #fff;
+            font-size: 20px;
+            transition: all .5s;
+        }
+        #btn_samsung:hover{
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+43,2989d8+72,2989d8+72,215eb2+84,1a61a8+96,7db9e8+100 */
+            background: #1e5799; /* Old browsers */
+            background: -moz-linear-gradient(top,  #1e5799 43%, #2989d8 72%, #2989d8 72%, #215eb2 84%, #1a61a8 96%, #7db9e8 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #1e5799 43%,#2989d8 72%,#2989d8 72%,#215eb2 84%,#1a61a8 96%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #1e5799 43%,#2989d8 72%,#2989d8 72%,#215eb2 84%,#1a61a8 96%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+            transform: scale(1.3);
+            font-weight: 700;
+        }
+        #btn_dimecity{
+            font-family: roc-grotesk-compressed, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            
+            text-decoration: none;
+            display: block;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 25px;
+            padding-top: 60px;
+            background-color: maroon;
+            color: blanchedalmond;
+            border: 10pt solid blanchedalmond;
+            text-align: center;
+            font-size: 40px;
+            transition: all .2s;
+        }
+        #btn_dimecity:hover{
+            transform: rotate(20deg);
+        }
+        #btn_cartoonnetwork{
+            font-family: roc-grotesk, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            display: block;
+            width: 150px;
+            height: 150px;
+            box-sizing: border-box;
+            border-radius: 2%;
+            margin: auto;
+            margin-top: 60px;
+            padding-top: 20px;
+            background-color: black;
+            border: 1pt solid black;
+            color: #fff;
+            text-align: center;
+            font-size: 90px;
+            transition: all .2s;
+        }
+        #btn_cartoonnetwork:hover{
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            background-color: white;
+        }
+        #btn_cartoonnetwork:active{
+            transform: rotate(10deg) translate(20px, -10px) scale(1.5);
+        }
+        a#btn_bissingers{
+            font-family: 'Cormorant Infant',serif;
+            display: inline-block;
+            height: 70px;
+            box-sizing: border-box;
+            border-radius: 1px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 8px 40px 0 40px;
+            background-color: goldenrod;
+            border: 2px solid goldenrod;
+            color: #fff;
+            font-size: 40px;
+            text-decoration: none;
+            transition: all .5s;
+        }
+        a#btn_bissingers:hover{
+            text-shadow: 0 0 3px white;
+            box-shadow: 0 0 3px goldenrod;
+            transform: scale(1.2);
+        }
+        a#btn_the-tonight-show{
+            font-family: filicudi-solid, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            display: block;
+            width: 250px;
+            height: 250px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 5px;
+            padding-top: 15px;
+            background-color: #1f3652;
+            border: 5pt solid rgb(190, 203, 228);
+            color: rgb(190, 203, 228);
+            text-align: center;
+            font-size: 55px;
+            transition: all .9s;
+        }
+        a#btn_the-tonight-show:hover{
+            transform: rotate(360deg) scale(1.5);
+        }
+        a#btn_nike{
+            text-decoration: none;
+            font-family: roc-grotesk, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            display: block;
+            padding-top: 140px;
+            font-size: 90px;
+            color: black;
+            transition: all .6s;
+        }
+        a#btn_nike:hover{
+            color: orange;
+            text-shadow: 0 0 3px red;
+            transform: translate(0px, -80px);
+        }
+        #btn_garden{
+            text-decoration: none;
+            font-family: 'Biryani', sans-serif;
+            display: inline-block;
+            position: relative;
+            margin:auto;
+            margin-top: 14px;
+            padding: 10px 15px;
+            background-color:rgb(70, 102, 70);
+            border: 3pt solid rgb(70, 102, 70);
+            color: blanchedalmond;
+            border-radius: 5pt;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            transition: all .7s;
+        }
+        #btn_garden:hover{
+            background-color:rgb(125, 173, 125) ;
+            color:rgb(70, 102, 70) ;
+            transform: scale(.8);
+        }
+        #btn_stjude{
+            font-family: 'Biryani', sans-serif;
+            font-family: 'Zen Antique Soft', serif;
+            text-decoration: none;
+            display: inline-block;
+            height: 60px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin: auto;
+            margin-top: 105px;
+            padding: 10px 50px 0 50px;
+            background-color: maroon;
+            color: #fff;
+            font-size: 25px;
+            transition: all 1s;
+        }
+        #btn_stjude:hover{
+            text-shadow: -1px -1px 0 maroon, 1px -1px 0 maroon, -1px 1px 0 maroon, 1px 1px 0 maroon;
+            background-color: white;
+            transform: rotate(30deg) scale(2.5);
+        }
+        #btn_newyorker{
+            font-family: 'Vollkorn SC', serif;
+            text-decoration: none;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+            font-size: 70px;
+            color: white;
+            display: inline-block;
+            height: 600px;
+            box-sizing: border-box;
+            padding-top: 30px;
+            margin-top: 0px;
+            
+            transition: all .5s;
+        }
+        #btn_newyorker:hover{
+            text-shadow: -1px -1px 0 tomato, 1px -1px 0 tomato, -1px 1px 0 tomato, 1px 1px 0 tomato;
+            color: tomato;
+        }
+        #btn_newyorker:active{
+            transform: scale(.8) ;
+        }
+        #btn_npr{
+            font-family: forma-djr-micro, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 5px 70px 0px 70px;
+            background-color: rgb(91, 114, 189);
+            border:10pt solid tomato ;
+            color: white;
+            font-size: 50px;
+            transition: all .4s;
+        }
+        #btn_npr:hover{
+            background-color: white;
+            color: black;
+            border:10pt solid black ;
+            transform: scale(1.6);
+            padding: 5px 10px 0px 10px;
+        }
+
+        /* a#btn_spotify {
+            display: inline-block;
+            height: 50px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 10px 40px 0 40px;
+            background-color: #2ebd59;
+            border: 2px solid #2ebd59;
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all .5s;
+        }
+
+        a#btn_spotify:hover {
+            background-color: #fff;
+            border: 2px solid #000;
+            color: #000;
+        }
+
+        a#btn_amazon {
+            display: block;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 50px;
+            margin: auto;
+            margin-top: 75px;
+            padding-top: 8px;
+            background-color: #232f3e;
+            color: #fff;
+            text-align: center;
+            font-size: 60px;
+            transition: all .2s;
+        } */
+
+        /* a#btn_amazon:hover {
+            background-color: #fc9a18;
+        }
+
+        a#btn_twitter {
+            display: inline-block;
+            height: 40px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin: auto;
+            margin-top: 105px;
+            padding: 10px 30px 0 30px;
+            background-color: #56cdf1;
+            color: #fff;
+            font-size: 18px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+        } */
+
+        /* a#btn_twitter:hover {
+
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+            /* background: rgb(46,191,236); Old browsers
+            background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); FF3.6-15 */
+            /* background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); Chrome10-25,Safari5.1-6 */
+            /* background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); IE6-9 fallback on horizontal gradient */
+
+        /* } */
+
+        /* a#btn_indiegogo {
+            display: inline-block;
+            position: relative;
+            margin:auto;
+            margin-top: 100px;
+            padding: 8px 16px;
+            background-color: #fff;
+            color: #eb1478;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: -2px;
+            transition: all .2s;
+        } */
+
+        /* a#btn_indiegogo:before {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: #eb1478;
+            transition: all .5s;
+        } */
+
+        /* a#btn_indiegogo:hover {
+            color: #fff;
+        }
+
+        a#btn_indiegogo:hover:before {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        } */
+
+        /* a#btn_indiegogo span {
+            position: relative;
+            z-index: 10;
+        } */
+
+    
+
