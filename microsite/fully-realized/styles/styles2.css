@@ -1,0 +1,106 @@
+/* body{
+    background-color: cadetblue;
+} */
+h1{
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 117px;
+    color: rgb(145, 168, 142);
+    text-align: center;
+    /* background: coral; */
+    margin-top: 15px;
+    font-family: adobe-jenson-pro-display, serif;
+font-weight: 700;
+font-style: normal;
+    }
+    h2{
+      font-family: mencken-std, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    h3{
+      font-family: mencken-std, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+    p{
+    font-family: mencken-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+    }
+    img[alt="book"]{
+        display: block;
+        width: 100%;
+    }
+    
+    /* ul{
+        display: flex; 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    } */
+    footer{
+      position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(145, 168, 142);
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: mencken-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+  }
+  .topnav a{
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+  }
+    
+      .column:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .left {
+        background-color: rgb(202, 231, 198);
+        color: black;
+        float: left;
+        width:30%;
+        padding: 30px 10px 30px 10px;
+        padding-top: 10%;
+      }
+      .right {
+        float: left;
+        width:67%;
+        padding-left: 10px ;
+      }
+      @media screen and (max-width: 1000px) {
+        .page {
+          width: 100%;
+        }
+      }
+      .imagecolumn:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      #one{
+          float: left;
+          width: 90%;
+          padding: 10px;
+      }
+      #two{
+        float: left;
+        width: 90%;
+        padding: 10px;
+    }
